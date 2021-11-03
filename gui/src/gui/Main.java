@@ -110,7 +110,7 @@ class PushPanel extends MyUtil {
 			this.btn[i] = new JButton();
 			this.btn[i].setBounds(x, y, size, size);
 			this.btn[i].setText(text[i]);
-			this.btn[i].addMouseListener(this);
+//			this.btn[i].addMouseListener(this);
 			add(btn[i]);
 			x += size;
 			if (i == this.btn.length - 1 - 1) {
